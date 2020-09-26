@@ -9,7 +9,7 @@ let myName = window.location.search.split('?')[1];
 
 document.addEventListener("DOMContentLoaded", async function(){
     setStatus("Loading configuration");
-    const response = await fetch('config.json');
+    const response = await fetch('../config.json');
     config = await response.json();
     console.log(config);
 
