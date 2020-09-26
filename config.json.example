@@ -1,0 +1,5 @@
+{
+    "brokerHostname": "nunya.uah.edu",
+    "brokerWsPort": 9001,
+    "baseTopic": "bigwall"
+}
